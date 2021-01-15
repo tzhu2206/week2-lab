@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musiccessories</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="px-6 py-4">
+    <div class="flex text-xl">
+      <h1 class="flex-1 font-bold">
+        <a href="index.html">
+          <span>Hi! Welcome to</span>
+          <span>Musiccessories!</span>
+        </a>
+      </h1>
+  
+      <p>
+        <strong>No instruments.</strong> <em>Only accessories.</em>
+      </p>
+    </div>
+    <div class="flex my-6">
+      <div class="w-1/3">
+        <div>
+          <h2 class="font-bold">Guitar Strings</h2>
+          <div>
+            <img class="my-4 rounded" src="https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80">
+          </div>
+          <div class="h-48">These are favored by many musicians around the globe. Made from a nickel-plated steel wire wrapped around a hex-shaped, steel core wire. The plain strings are made of specially tempered, tin-plated, high-carbon steel, producing a well-balanced tone.</div>
+          <div class="font-bold">$5.49</div>
+        </div>
+      </div>
+      <div class="w-1/3 mx-4">
+        <div>
+          <h2 class="font-bold">Guitar Picks (12-pack)</h2>
+          <div>
+            <img class="my-4 rounded" src="https://images.unsplash.com/photo-1604227176135-2a20c22cad2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80">
+          </div>
+          <div class="h-48">A wider body and a rounded tip have made this pick a favorite with players of every style. Celluloid picks combine the traditional tone and feel of celluloid, with beautiful and unique colors.</div>
+          <div class="font-bold">$2.99</div>
+        </div>
+      </div>
+      <div class="w-1/3">
+        <div>
+          <h2 class="font-bold">Drum Sticks (Pair)</h2>
+          <div>
+            <img class="my-4 rounded" src="https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80">
+          </div>
+          <div class="h-48">These 100% hickory drum sticks are made in the USA.</div>
+          <div class="font-bold">$3.99</div>
+        </div>
+      </div>
+    </div>
+    <h1 class="text-center text-xl font-bold">Ready to Order?</h1>
+    <form netlify>
+      <label class="block mt-4 font-bold" for="name">Your Name</label>
+      <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+      focus:border-purple-500" type="text" id="name" name="name">
+    
+      <label class="block mt-4 font-bold" for="favorite-color">Your Email</label>
+      <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+      focus:border-purple-500" type="text" id="email" name="email">
+    
+      <label class="block mt-4 font-bold" for="favorite-color">What would you like to order?</label>
+      <input class="p-4 w-full border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+      focus:border-purple-500" type="text" id="order" name="order">
+    
+      <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2">Submit form!</button>
+    </form>  </div>
+</body>
+
+</html>
